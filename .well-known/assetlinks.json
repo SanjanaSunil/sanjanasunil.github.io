@@ -1,1 +1,14 @@
-[]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.android.sdksandboxclient",
+    "sha256_cert_fingerprints": ["57:CC:42:4B:BB:D2:78:BF:19:2F:75:C3:F3:12:E5:9F:44:F0:9C:48:F5:64:DE:52:76:54:95:29:0D:9A:7A:8C"]
+  },
+  "url_handlers": [
+    {
+      "paths": ["/product/.*"],
+      "exclude_paths": ["/product/help"]
+    }
+  ]
+}]
